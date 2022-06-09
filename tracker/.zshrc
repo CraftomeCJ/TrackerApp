@@ -1,0 +1,1 @@
+export PATH=/home/craftome_cj/.yarn/bin:/home/craftome_cj/.config/yarn/global/node_modules/.bin:/home/craftome_cj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/homebrew/bin
