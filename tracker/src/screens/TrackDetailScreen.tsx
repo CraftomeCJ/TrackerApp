@@ -3,7 +3,7 @@ import React from 'react'
 
 type Props = {}
 
-const TrackDetailScreen = (props: Props) => {
+const TrackDetailScreen = (_props: Props) => {
   return (
     <View>
       <Text>TrackDetailScreen</Text>

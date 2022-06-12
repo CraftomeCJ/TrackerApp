@@ -1,15 +1,22 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { SafeAreaView, StyleSheet, Text } from 'react-native'
 import React from 'react'
 
-type Props = {}
+import { Button } from '@rneui/base';
+import Spacer from '../reusableComponents/Spacer';
+import useAuth from '../hooks/useAuth';
 
-const AccountScreen = (props: Props) => {
+const AccountScreen = () => {
+  const { signOut } = useAuth();
+
   return (
-    <View>
-      <Text>AccountScreen</Text>
-    </View>
-  )
-}
+      <SafeAreaView>
+          <Text style = {{ fontSize: 48 }}>Account Screen</Text>
+          <Spacer>
+              <Button title = "Sign Out" onPress={ signOut }  />
+          </Spacer>
+      </SafeAreaView>
+  );
+};
 
 export default AccountScreen
 

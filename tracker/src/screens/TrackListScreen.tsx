@@ -6,11 +6,7 @@ import {
  } from 'react-native';
 import React from 'react';
 
-type Props = {
-  navigation: any
-}
-
-const TrackListScreen = ({ navigation }: Props): React.ReactElement => {
+const TrackListScreen = ({navigation}: {navigation: any}) => {
 
   return (
 

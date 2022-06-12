@@ -4,11 +4,8 @@ import {
     } from 'react-native'
 import React from 'react'
 
-type Props = {
-  children: any
-}
 
-const spacer = ({children}: Props) => {
+const Spacer:React.FC = ({children}) => {
   return (
 
   <View
@@ -16,10 +13,10 @@ const spacer = ({children}: Props) => {
      {children}
      </View>
   )
-  
+
 };
 
-export default spacer;
+export default Spacer;
 
 const styles = StyleSheet.create({
   spacer: {
